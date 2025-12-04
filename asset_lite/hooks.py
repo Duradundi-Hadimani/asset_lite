@@ -296,12 +296,12 @@ fixtures = [
         ]
     },
 
-    {
-        "doctype": "Company",
-        "filters": [
-            ["domain", "=", "Healthcare"]
-        ]
-    },
+    # {
+    #     "doctype": "Company",
+    #     "filters": [
+    #         ["domain", "=", "Healthcare"]
+    #     ]
+    # },
     {
         "doctype": "User Permission",
         "filters": [
