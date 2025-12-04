@@ -1,0 +1,45 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2024-12-19 12:22:03.077425",
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "letterhead": null,
+ "modified": "2024-12-19 12:25:59.662186",
+ "modified_by": "Administrator",
+ "module": "Asset Lite",
+ "name": "Supplier Down Time",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Asset",
+ "report_name": "Supplier Down Time",
+ "report_type": "Script Report",
+ "roles": [
+  {
+   "role": "Accounts User"
+  },
+  {
+   "role": "Quality Manager"
+  },
+  {
+   "role": "End user"
+  },
+  {
+   "role": "Technician"
+  },
+  {
+   "role": "Maintenance Manager"
+  },
+  {
+   "role": "Finance User"
+  },
+  {
+   "role": "Employee"
+  }
+ ],
+ "timeout": 0
+}

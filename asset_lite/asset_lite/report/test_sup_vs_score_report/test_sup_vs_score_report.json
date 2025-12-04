@@ -1,0 +1,29 @@
+{
+ "add_total_row": 1,
+ "columns": [],
+ "creation": "2024-12-24 19:02:23.197235",
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "letterhead": null,
+ "modified": "2024-12-24 19:11:37.533049",
+ "modified_by": "Administrator",
+ "module": "Asset Lite",
+ "name": "Test SUP vs Score Report",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "SELECT\n    supplier,\n    supplier_score\nFROM\n    `tabSupplier Scorecard`\nORDER BY\n    supplier_score DESC;",
+ "ref_doctype": "Supplier Scorecard",
+ "reference_report": "SUP Scorecard",
+ "report_name": "Test SUP vs Score Report",
+ "report_type": "Query Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ],
+ "timeout": 0
+}

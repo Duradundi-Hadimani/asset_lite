@@ -1,0 +1,131 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "PPM-EF-.####",
+ "creation": "2024-09-13 09:33:19.484317",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "building",
+  "month",
+  "column_break_2",
+  "floor",
+  "year",
+  "section_break_4",
+  "electrical_fixtures_table",
+  "notes_if_any",
+  "section_break_7",
+  "checked_by",
+  "electrician",
+  "column_break_10",
+  "maintenance_manager",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "building",
+   "fieldtype": "Data",
+   "label": "Building"
+  },
+  {
+   "fieldname": "month",
+   "fieldtype": "Select",
+   "label": "Month",
+   "options": "\nJanuary\nFebruary\nMarch\nApril\nMay\nJune\nJuly\nAugust\nSeptember\nOctober\nNovember\nDecember"
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "floor",
+   "fieldtype": "Select",
+   "label": "Floor",
+   "options": "\nGF\nFF\nSF\nTF"
+  },
+  {
+   "fieldname": "year",
+   "fieldtype": "Data",
+   "label": "Year"
+  },
+  {
+   "fieldname": "section_break_4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "electrical_fixtures_table",
+   "fieldtype": "Table",
+   "label": "Electrical Fixtures table",
+   "options": "PPM Electrical Fixtures Inside Rooms Table"
+  },
+  {
+   "fieldname": "notes_if_any",
+   "fieldtype": "Small Text",
+   "label": "Notes if Any"
+  },
+  {
+   "fieldname": "section_break_7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "checked_by",
+   "fieldtype": "Data",
+   "label": "Checked By"
+  },
+  {
+   "depends_on": "eval:doc.workflow_state == \"Sent to Electrician\" || doc.workflow_state == \"Sent to Maintenance Manager\" || doc.workflow_state == \"Approved\"",
+   "fieldname": "electrician",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Electrician"
+  },
+  {
+   "fieldname": "column_break_10",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "eval:doc.workflow_state == \"Sent to Maintenance Manager\" || doc.workflow_state == \"Approved\"",
+   "fieldname": "maintenance_manager",
+   "fieldtype": "Data",
+   "label": "Maintenance Manager"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "PPM OF ELECTRICAL PANELS",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-09-13 17:45:10.601474",
+ "modified_by": "Administrator",
+ "module": "Asset Lite",
+ "name": "PPM OF ELECTRICAL FIXTURES INSIDE ROOMS",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

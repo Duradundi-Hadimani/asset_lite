@@ -1,0 +1,253 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "field:support_plan",
+ "creation": "2024-09-13 14:42:48.041382",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "support_plan",
+  "frequency",
+  "max_downtime_hrs",
+  "column_break_ayau",
+  "asset",
+  "starting_date",
+  "penalty_factor",
+  "section_break_zyxt",
+  "warranty",
+  "warranty_start_date",
+  "warranty_end_date",
+  "war_status",
+  "column_break_agzy",
+  "extended_warranty",
+  "start",
+  "end",
+  "service_contract_section",
+  "service_contract",
+  "spare_parts",
+  "spare_parts_labour",
+  "labour",
+  "ppm_only",
+  "column_break_celd",
+  "no",
+  "start_date",
+  "end_date",
+  "service_contract_status",
+  "vendor_details_section",
+  "vendor",
+  "section_break_pyrk",
+  "asset_list"
+ ],
+ "fields": [
+  {
+   "fieldname": "support_plan",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "frequency",
+   "fieldtype": "Select",
+   "label": "Frequency",
+   "options": "\nDaily\nWeekly\nMonthly\nQuarterly\nYearly\n2 Yearly"
+  },
+  {
+   "fieldname": "asset",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Asset",
+   "options": "Asset"
+  },
+  {
+   "fieldname": "column_break_ayau",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "starting_date",
+   "fieldtype": "Date",
+   "hidden": 1,
+   "label": "Starting Date"
+  },
+  {
+   "fieldname": "service_contract_section",
+   "fieldtype": "Section Break",
+   "label": "Service Contract"
+  },
+  {
+   "default": "0",
+   "depends_on": "eval:doc.service_contract == 1",
+   "fieldname": "spare_parts",
+   "fieldtype": "Check",
+   "label": "Comprehensive"
+  },
+  {
+   "fieldname": "column_break_celd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "depends_on": "eval:doc.service_contract == 1",
+   "fieldname": "labour",
+   "fieldtype": "Check",
+   "label": "Labour Only"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "hidden": 1,
+   "label": "Start Date",
+   "mandatory_depends_on": "service_contract"
+  },
+  {
+   "depends_on": "eval:doc.service_contract == 1",
+   "fieldname": "service_contract_status",
+   "fieldtype": "Select",
+   "label": "Service Contract Status",
+   "options": "\nActive\nExpired\nNot Applicable"
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Date",
+   "hidden": 1,
+   "label": "End Date"
+  },
+  {
+   "default": "0",
+   "fieldname": "service_contract",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "fieldname": "vendor_details_section",
+   "fieldtype": "Section Break",
+   "label": "Vendor Details"
+  },
+  {
+   "fieldname": "vendor",
+   "fieldtype": "Link",
+   "label": "Vendor Name",
+   "options": "Supplier"
+  },
+  {
+   "fieldname": "section_break_zyxt",
+   "fieldtype": "Section Break",
+   "label": "Warranty Details"
+  },
+  {
+   "fieldname": "warranty_start_date",
+   "fieldtype": "Date",
+   "hidden": 1,
+   "label": "Warranty Start Date"
+  },
+  {
+   "fieldname": "warranty_end_date",
+   "fieldtype": "Date",
+   "hidden": 1,
+   "label": "Warranty End Date"
+  },
+  {
+   "default": "0",
+   "fieldname": "warranty",
+   "fieldtype": "Check",
+   "label": "Warranty"
+  },
+  {
+   "default": "0",
+   "depends_on": "eval:doc.warranty == 1",
+   "fieldname": "extended_warranty",
+   "fieldtype": "Check",
+   "label": "Extended Warranty"
+  },
+  {
+   "fieldname": "column_break_agzy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "start",
+   "fieldtype": "Date",
+   "hidden": 1,
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "end",
+   "fieldtype": "Date",
+   "hidden": 1,
+   "label": "End Date"
+  },
+  {
+   "depends_on": "eval:doc.warranty == 1",
+   "fieldname": "war_status",
+   "fieldtype": "Select",
+   "label": "Warranty Status",
+   "options": "\nActive\nExpired\nNA"
+  },
+  {
+   "default": "0",
+   "depends_on": "eval:doc.service_contract == 1",
+   "fieldname": "ppm_only",
+   "fieldtype": "Check",
+   "label": "PPM Only"
+  },
+  {
+   "default": "0",
+   "depends_on": "eval:doc.service_contract == 1",
+   "fieldname": "spare_parts_labour",
+   "fieldtype": "Check",
+   "label": "Spare Parts & Labour"
+  },
+  {
+   "default": "0",
+   "fieldname": "no",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "fieldname": "section_break_pyrk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "asset_list",
+   "fieldtype": "Table",
+   "label": "Asset List",
+   "options": "Support Asset List"
+  },
+  {
+   "fieldname": "max_downtime_hrs",
+   "fieldtype": "Float",
+   "label": "Max Downtime Hrs"
+  },
+  {
+   "fieldname": "penalty_factor",
+   "fieldtype": "Float",
+   "label": "Penalty Factor"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-03-04 15:35:02.126640",
+ "modified_by": "Administrator",
+ "module": "Asset Lite",
+ "name": "Support Plans",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

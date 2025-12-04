@@ -1,0 +1,3138 @@
+[
+ {
+  "cards": [
+   {
+    "card": "Total No of Assets DAJH",
+    "parent": "DAJH test Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Open WO DAJH",
+    "parent": "DAJH test Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "WO IN Progress DAJH",
+    "parent": "DAJH test Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Completed WO DAJH",
+    "parent": "DAJH test Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   }
+  ],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": "Asset Up/Down DAJH",
+    "parent": "DAJH test Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Maintenance Assignments DAJH",
+    "parent": "DAJH test Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Asset Maintenance Frequency DAJH",
+    "parent": "DAJH test Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Work Orders DAJH",
+    "parent": "DAJH test Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Work Order Status DAJH",
+    "parent": "DAJH test Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Work Order Priority DAJH",
+    "parent": "DAJH test Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Active Map Chart",
+    "parent": "DAJH test Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   }
+  ],
+  "custom_department": null,
+  "dashboard_name": "DAJH test Dashboard",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 0,
+  "is_standard": 0,
+  "modified": "2025-07-17 16:56:23.498825",
+  "module": null,
+  "name": "DAJH test Dashboard"
+ },
+ {
+  "cards": [
+   {
+    "card": "Total Assets",
+    "parent": "Asset Overall Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "New Assets (This Year)",
+    "parent": "Asset Overall Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Asset Value",
+    "parent": "Asset Overall Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Open Work Orders",
+    "parent": "Asset Overall Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Work Orders In Progress",
+    "parent": "Asset Overall Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Completed Work Orders",
+    "parent": "Asset Overall Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   }
+  ],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": "Asset Up- Down",
+    "parent": "Asset Overall Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Work Order Status Chart",
+    "parent": "Asset Overall Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Maintenance Frequency Chart",
+    "parent": "Asset Overall Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Maintenance Assignees Status Count",
+    "parent": "Asset Overall Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Maintenance - Asset wise Count",
+    "parent": "Asset Overall Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Repair Cost",
+    "parent": "Asset Overall Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Total Hrs and Down Time",
+    "parent": "Asset Overall Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Engineers Working Hours on Work Orders",
+    "parent": "Asset Overall Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Item-wise Purchase History",
+    "parent": "Asset Overall Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Item Balance",
+    "parent": "Asset Overall Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "PPM Status",
+    "parent": "Asset Overall Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "PPM Template Counts",
+    "parent": "Asset Overall Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Biomedical PPM Monthly",
+    "parent": "Asset Overall Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   }
+  ],
+  "custom_department": null,
+  "dashboard_name": "Asset Overall Dashboard",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 0,
+  "is_standard": 0,
+  "modified": "2025-03-06 12:33:01.581939",
+  "module": null,
+  "name": "Asset Overall Dashboard"
+ },
+ {
+  "cards": [],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": null,
+    "parent": "Asset Department Wise",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   }
+  ],
+  "custom_department": null,
+  "dashboard_name": "Asset Department Wise",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 0,
+  "is_standard": 0,
+  "modified": "2024-10-19 22:33:30.294706",
+  "module": null,
+  "name": "Asset Department Wise"
+ },
+ {
+  "cards": [],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": "Asset Up and Down Status",
+    "parent": "Asset Bio-Medical Department",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset List Department wise",
+    "parent": "Asset Bio-Medical Department",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work_order Status",
+    "parent": "Asset Bio-Medical Department",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Maintenance Frequency Bio Medical",
+    "parent": "Asset Bio-Medical Department",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Maintenance Assignees Status Count Bio Medical",
+    "parent": "Asset Bio-Medical Department",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset wise Count",
+    "parent": "Asset Bio-Medical Department",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Class A",
+    "parent": "Asset Bio-Medical Department",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Asset Class B",
+    "parent": "Asset Bio-Medical Department",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Asset Class C",
+    "parent": "Asset Bio-Medical Department",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Asset Total Hrs",
+    "parent": "Asset Bio-Medical Department",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Asset Total Hrs Class A",
+    "parent": "Asset Bio-Medical Department",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Asset Total Hrs Class B",
+    "parent": "Asset Bio-Medical Department",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Asset Total Hrs Class C",
+    "parent": "Asset Bio-Medical Department",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   }
+  ],
+  "custom_department": null,
+  "dashboard_name": "Asset Bio-Medical Department",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 0,
+  "is_standard": 0,
+  "modified": "2024-10-23 18:37:01.083312",
+  "module": null,
+  "name": "Asset Bio-Medical Department"
+ },
+ {
+  "cards": [],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": "Asset Up and Down Status.",
+    "parent": "Asset Operation Department",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Asset List Department wise OP",
+    "parent": "Asset Operation Department",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work_order Status.",
+    "parent": "Asset Operation Department",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset wise Count.",
+    "parent": "Asset Operation Department",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Maintenance Assignees Status Count.",
+    "parent": "Asset Operation Department",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Maintenance Frequency .",
+    "parent": "Asset Operation Department",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Class A.",
+    "parent": "Asset Operation Department",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Asset Class B.",
+    "parent": "Asset Operation Department",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Asset Class C.",
+    "parent": "Asset Operation Department",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Asset Total Hrs.",
+    "parent": "Asset Operation Department",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Asset Total Hrs Class A.",
+    "parent": "Asset Operation Department",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Asset Total Hrs Class B.",
+    "parent": "Asset Operation Department",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Asset Total Hrs Class C.",
+    "parent": "Asset Operation Department",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   }
+  ],
+  "custom_department": null,
+  "dashboard_name": "Asset Operation Department",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 0,
+  "is_standard": 0,
+  "modified": "2024-10-23 18:35:00.660617",
+  "module": null,
+  "name": "Asset Operation Department"
+ },
+ {
+  "cards": [],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": "Asset Class-A",
+    "parent": "Asset Class A",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Total Hrs Class-A",
+    "parent": "Asset Class A",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Up and Down Class A",
+    "parent": "Asset Class A",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   }
+  ],
+  "custom_department": null,
+  "dashboard_name": "Asset Class A",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 0,
+  "is_standard": 0,
+  "modified": "2024-10-22 19:16:06.497493",
+  "module": null,
+  "name": "Asset Class A"
+ },
+ {
+  "cards": [],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": "Asset Class-B",
+    "parent": "Asset Class B",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Total Hrs Class-B",
+    "parent": "Asset Class B",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Up and Down Class B",
+    "parent": "Asset Class B",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   }
+  ],
+  "custom_department": null,
+  "dashboard_name": "Asset Class B",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 0,
+  "is_standard": 0,
+  "modified": "2024-10-22 19:16:42.821918",
+  "module": null,
+  "name": "Asset Class B"
+ },
+ {
+  "cards": [],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": "Asset Class-C",
+    "parent": "Asset Class C",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Total Hrs Class-C",
+    "parent": "Asset Class C",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Up and Down Class C",
+    "parent": "Asset Class C",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   }
+  ],
+  "custom_department": null,
+  "dashboard_name": "Asset Class C",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 0,
+  "is_standard": 0,
+  "modified": "2024-10-22 19:17:09.980878",
+  "module": null,
+  "name": "Asset Class C"
+ },
+ {
+  "cards": [
+   {
+    "card": "Item Count",
+    "parent": "Supplier Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Repair Total Amount",
+    "parent": "Supplier Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Total Vendors-1",
+    "parent": "Supplier Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Total Asset",
+    "parent": "Supplier Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Total Work Order",
+    "parent": "Supplier Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Total PPM Completed",
+    "parent": "Supplier Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Total PPM",
+    "parent": "Supplier Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   }
+  ],
+  "chart_options": "",
+  "charts": [
+   {
+    "chart": "Supplier Total Rank",
+    "parent": "Supplier Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Supplier Repair Time",
+    "parent": "Supplier Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Counts Chart",
+    "parent": "Supplier Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "PM Status",
+    "parent": "Supplier Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Repair Cost",
+    "parent": "Supplier Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Supplier Downtime",
+    "parent": "Supplier Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Maintenance Response Time",
+    "parent": "Supplier Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "PMC",
+    "parent": "Supplier Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "PMP",
+    "parent": "Supplier Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Technician Avg Ratings",
+    "parent": "Supplier Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   }
+  ],
+  "custom_department": null,
+  "dashboard_name": "Supplier Dashboard",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 0,
+  "is_standard": 0,
+  "modified": "2025-06-10 16:58:05.892610",
+  "module": null,
+  "name": "Supplier Dashboard"
+ },
+ {
+  "cards": [
+   {
+    "card": "Total PPM Completed",
+    "parent": "Test Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Total PPM",
+    "parent": "Test Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   }
+  ],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": "Asset Count By asset",
+    "parent": "Test Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Up time and down time asset",
+    "parent": "Test Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Priority Chart",
+    "parent": "Test Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   }
+  ],
+  "custom_department": null,
+  "dashboard_name": "Test Dashboard",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 0,
+  "is_standard": 0,
+  "modified": "2025-03-11 11:03:15.814367",
+  "module": null,
+  "name": "Test Dashboard"
+ },
+ {
+  "cards": [],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": "Up time and down time asset",
+    "parent": "Test Dashboard HH",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   }
+  ],
+  "custom_department": null,
+  "dashboard_name": "Test Dashboard HH",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 0,
+  "is_standard": 0,
+  "modified": "2025-03-09 13:49:21.928354",
+  "module": null,
+  "name": "Test Dashboard HH"
+ },
+ {
+  "cards": [
+   {
+    "card": "Total No of Assets DAJH",
+    "parent": "DAJH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Open WO DAJH",
+    "parent": "DAJH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "WO IN Progress DAJH",
+    "parent": "DAJH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Completed WO DAJH",
+    "parent": "DAJH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "PPM Planned DAJH",
+    "parent": "DAJH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "PPM Completed DAJH",
+    "parent": "DAJH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   }
+  ],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": "Asset Up/Down DAJH",
+    "parent": "DAJH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Order Priority DAJH",
+    "parent": "DAJH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Orders DAJH",
+    "parent": "DAJH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Order Status DAJH",
+    "parent": "DAJH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "PPM Status Chart DAJH",
+    "parent": "DAJH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Maintenance Frequency DAJH",
+    "parent": "DAJH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Maintenance Assignments DAJH",
+    "parent": "DAJH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Engineer Work Hours DAJH",
+    "parent": "DAJH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Cost History DAJH",
+    "parent": "DAJH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "PO Analysis DAJH",
+    "parent": "DAJH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   }
+  ],
+  "custom_department": null,
+  "dashboard_name": "DAJH Dashboard",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 0,
+  "is_standard": 0,
+  "modified": "2025-04-02 15:27:13.892500",
+  "module": null,
+  "name": "DAJH Dashboard"
+ },
+ {
+  "cards": [
+   {
+    "card": "Total No of Assets",
+    "parent": "Project Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Open WO",
+    "parent": "Project Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "WO IN Progress",
+    "parent": "Project Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Completed WO",
+    "parent": "Project Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "No of Bio Med Assets",
+    "parent": "Project Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Open Bio Med WO",
+    "parent": "Project Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Bio Med WO IN Progress",
+    "parent": "Project Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Bio Med Completed WO",
+    "parent": "Project Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "No of Non-Bio Med Assets",
+    "parent": "Project Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Open Non-Bio Med WO",
+    "parent": "Project Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Non-Bio Med WO IN Progress",
+    "parent": "Project Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Non-Bio Med Completed WO",
+    "parent": "Project Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "PPM Planned",
+    "parent": "Project Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "PPM Completed",
+    "parent": "Project Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "PPM Overdue",
+    "parent": "Project Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   }
+  ],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": "Active Map Chart",
+    "parent": "Project Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Up/Down",
+    "parent": "Project Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Biomedical Asset Up/Down",
+    "parent": "Project Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Non-Biomedical Asset Up/Down",
+    "parent": "Project Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Orders Priority",
+    "parent": "Project Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Biomedical WO Priority",
+    "parent": "Project Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Non-Biomedical WO Priority",
+    "parent": "Project Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Overall Work Orders",
+    "parent": "Project Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Overall Biomedical WO",
+    "parent": "Project Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Overall Non-Biomedical WO",
+    "parent": "Project Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Order Status",
+    "parent": "Project Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Biomedical WO Status",
+    "parent": "Project Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Non-Biomedical WO Status",
+    "parent": "Project Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "PPM Status Chart",
+    "parent": "Project Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Maintenance Frequency",
+    "parent": "Project Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Maintenance Assignments",
+    "parent": "Project Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Engineer Work Hours",
+    "parent": "Project Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Depreciation Report",
+    "parent": "Project Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Cost History - Chart",
+    "parent": "Project Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   }
+  ],
+  "custom_department": null,
+  "dashboard_name": "Project Dashboard",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 0,
+  "is_standard": 0,
+  "modified": "2025-08-08 18:44:21.557819",
+  "module": null,
+  "name": "Project Dashboard"
+ },
+ {
+  "cards": [
+   {
+    "card": "Total No of Assets KASH",
+    "parent": "KASH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Open WO KASH",
+    "parent": "KASH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "WO IN Progress KASH",
+    "parent": "KASH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Completed WO KASH",
+    "parent": "KASH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "PPM Planned KASH",
+    "parent": "KASH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "PPM Completed KASH",
+    "parent": "KASH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   }
+  ],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": "Asset Up/Down KASH",
+    "parent": "KASH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Order Priority KASH",
+    "parent": "KASH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Orders KASH",
+    "parent": "KASH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Order Status KASH",
+    "parent": "KASH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "PPM Status Chart KASH",
+    "parent": "KASH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Maintenance Frequency KASH",
+    "parent": "KASH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Maintenance Assignments KASH",
+    "parent": "KASH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Engineer Work Hours KASH",
+    "parent": "KASH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Cost History KASH",
+    "parent": "KASH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "PO Analysis KASH",
+    "parent": "KASH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   }
+  ],
+  "custom_department": null,
+  "dashboard_name": "KASH Dashboard",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 0,
+  "is_standard": 0,
+  "modified": "2025-04-02 15:23:13.452712",
+  "module": null,
+  "name": "KASH Dashboard"
+ },
+ {
+  "cards": [
+   {
+    "card": "Total No of Assets TH",
+    "parent": "TH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Open WO TH",
+    "parent": "TH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "WO IN Progress TH",
+    "parent": "TH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Completed WO TH",
+    "parent": "TH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "PPM Planned TH",
+    "parent": "TH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "PPM Completed TH",
+    "parent": "TH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   }
+  ],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": "Asset Up/Down TH",
+    "parent": "TH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Order Priority TH",
+    "parent": "TH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Orders TH",
+    "parent": "TH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Order Status TH",
+    "parent": "TH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "PPM Status Chart TH",
+    "parent": "TH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Maintenance Frequency TH",
+    "parent": "TH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Maintenance Assignments TH",
+    "parent": "TH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Engineer Work Hours TH",
+    "parent": "TH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Cost History TH",
+    "parent": "TH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "PO Analysis TH",
+    "parent": "TH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   }
+  ],
+  "custom_department": null,
+  "dashboard_name": "TH Dashboard",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 0,
+  "is_standard": 0,
+  "modified": "2025-04-02 15:27:39.342776",
+  "module": null,
+  "name": "TH Dashboard"
+ },
+ {
+  "cards": [
+   {
+    "card": "Total No of Assets DCAJ",
+    "parent": "DCAJ Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Open WO DCAJ",
+    "parent": "DCAJ Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "WO IN Progress DCAJ",
+    "parent": "DCAJ Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Completed WO DCAJ",
+    "parent": "DCAJ Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "PPM Planned DCAJ",
+    "parent": "DCAJ Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "PPM Completed DCAJ",
+    "parent": "DCAJ Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   }
+  ],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": "Asset Up/Down DCAJ",
+    "parent": "DCAJ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Order Priority DCAJ",
+    "parent": "DCAJ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Orders DCAJ",
+    "parent": "DCAJ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Order Status DCAJ",
+    "parent": "DCAJ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "PPM Status Chart DCAJ",
+    "parent": "DCAJ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Maintenance Frequency DCAJ",
+    "parent": "DCAJ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Maintenance Assignments DCAJ",
+    "parent": "DCAJ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Engineer Work Hours DCAJ",
+    "parent": "DCAJ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Cost History DCAJ",
+    "parent": "DCAJ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "PO Analysis DCAJ",
+    "parent": "DCAJ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   }
+  ],
+  "custom_department": null,
+  "dashboard_name": "DCAJ Dashboard",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 0,
+  "is_standard": 0,
+  "modified": "2025-06-10 14:38:15.541113",
+  "module": null,
+  "name": "DCAJ Dashboard"
+ },
+ {
+  "cards": [
+   {
+    "card": "Total No of Assets AJMHH",
+    "parent": "AJMHH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Open WO AJMHH",
+    "parent": "AJMHH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "WO IN Progress AJMHH",
+    "parent": "AJMHH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Completed WO AJMHH",
+    "parent": "AJMHH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "PPM Planned AJMHH",
+    "parent": "AJMHH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "PPM Completed AJMHH",
+    "parent": "AJMHH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   }
+  ],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": "Asset Up/Down AJMHH",
+    "parent": "AJMHH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Order Priority AJMHH",
+    "parent": "AJMHH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Orders AJMHH",
+    "parent": "AJMHH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Order Status AJMHH",
+    "parent": "AJMHH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "PPM Status Chart AJMHH",
+    "parent": "AJMHH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Maintenance Frequency AJMHH",
+    "parent": "AJMHH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Maintenance Assignments AJMHH",
+    "parent": "AJMHH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Engineer Work Hours AJMHH",
+    "parent": "AJMHH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Cost History AJMHH",
+    "parent": "AJMHH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "PO Analysis AJMHH",
+    "parent": "AJMHH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   }
+  ],
+  "custom_department": null,
+  "dashboard_name": "AJMHH Dashboard",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 0,
+  "is_standard": 0,
+  "modified": "2025-06-10 14:40:56.445379",
+  "module": null,
+  "name": "AJMHH Dashboard"
+ },
+ {
+  "cards": [
+   {
+    "card": "Total No of Assets MCHAJ",
+    "parent": "MCHAJ Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Open WO MCHAJ",
+    "parent": "MCHAJ Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "WO IN Progress MCHAJ",
+    "parent": "MCHAJ Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Completed WO MCHAJ",
+    "parent": "MCHAJ Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "PPM Planned MCHAJ",
+    "parent": "MCHAJ Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "PPM Completed MCHAJ",
+    "parent": "MCHAJ Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   }
+  ],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": "Asset Up/Down MCHAJ",
+    "parent": "MCHAJ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Order Priority MCHAJ",
+    "parent": "MCHAJ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Orders MCHAJ",
+    "parent": "MCHAJ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Order Status MCHAJ",
+    "parent": "MCHAJ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "PPM Status Chart MCHAJ",
+    "parent": "MCHAJ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Maintenance Frequency MCHAJ",
+    "parent": "MCHAJ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Maintenance Assignments MCHAJ",
+    "parent": "MCHAJ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Engineer Work Hours MCHAJ",
+    "parent": "MCHAJ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Cost History MCHAJ",
+    "parent": "MCHAJ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "PO Analysis MCHAJ",
+    "parent": "MCHAJ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   }
+  ],
+  "custom_department": null,
+  "dashboard_name": "MCHAJ Dashboard",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 0,
+  "is_standard": 0,
+  "modified": "2025-06-10 14:40:56.516085",
+  "module": null,
+  "name": "MCHAJ Dashboard"
+ },
+ {
+  "cards": [
+   {
+    "card": "Total No of Assets MTAJ",
+    "parent": "MTAJ Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Open WO MTAJ",
+    "parent": "MTAJ Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "WO IN Progress MTAJ",
+    "parent": "MTAJ Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Completed WO MTAJ",
+    "parent": "MTAJ Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "PPM Planned MTAJ",
+    "parent": "MTAJ Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "PPM Completed MTAJ",
+    "parent": "MTAJ Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   }
+  ],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": "Asset Up/Down MTAJ",
+    "parent": "MTAJ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Order Priority MTAJ",
+    "parent": "MTAJ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Orders MTAJ",
+    "parent": "MTAJ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Order Status MTAJ",
+    "parent": "MTAJ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "PPM Status Chart MTAJ",
+    "parent": "MTAJ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Maintenance Frequency MTAJ",
+    "parent": "MTAJ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Maintenance Assignments MTAJ",
+    "parent": "MTAJ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Engineer Work Hours MTAJ",
+    "parent": "MTAJ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Cost History MTAJ",
+    "parent": "MTAJ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "PO Analysis MTAJ",
+    "parent": "MTAJ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   }
+  ],
+  "custom_department": null,
+  "dashboard_name": "MTAJ Dashboard",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 0,
+  "is_standard": 0,
+  "modified": "2025-06-10 14:40:56.559363",
+  "module": null,
+  "name": "MTAJ Dashboard"
+ },
+ {
+  "cards": [
+   {
+    "card": "Total No of Assets AHH",
+    "parent": "AHH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Open WO AHH",
+    "parent": "AHH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "WO IN Progress AHH",
+    "parent": "AHH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Completed WO AHH",
+    "parent": "AHH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "PPM Planned AHH",
+    "parent": "AHH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "PPM Completed AHH",
+    "parent": "AHH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   }
+  ],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": "Asset Up/Down AHH",
+    "parent": "AHH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Order Priority AHH",
+    "parent": "AHH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Orders AHH",
+    "parent": "AHH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Order Status AHH",
+    "parent": "AHH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "PPM Status Chart AHH",
+    "parent": "AHH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Maintenance Frequency AHH",
+    "parent": "AHH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Maintenance Assignments AHH",
+    "parent": "AHH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Engineer Work Hours AHH",
+    "parent": "AHH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Cost History AHH",
+    "parent": "AHH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "PO Analysis AHH",
+    "parent": "AHH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   }
+  ],
+  "custom_department": null,
+  "dashboard_name": "AHH Dashboard",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 0,
+  "is_standard": 0,
+  "modified": "2025-06-10 14:40:56.604815",
+  "module": null,
+  "name": "AHH Dashboard"
+ },
+ {
+  "cards": [
+   {
+    "card": "Total No of Assets AIH",
+    "parent": "AIH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Open WO AIH",
+    "parent": "AIH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "WO IN Progress AIH",
+    "parent": "AIH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Completed WO AIH",
+    "parent": "AIH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "PPM Planned AIH",
+    "parent": "AIH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "PPM Completed AIH",
+    "parent": "AIH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   }
+  ],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": "Asset Up/Down AIH",
+    "parent": "AIH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Order Priority AIH",
+    "parent": "AIH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Orders AIH",
+    "parent": "AIH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Order Status AIH",
+    "parent": "AIH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "PPM Status Chart AIH",
+    "parent": "AIH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Maintenance Frequency AIH",
+    "parent": "AIH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Maintenance Assignments AIH",
+    "parent": "AIH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Engineer Work Hours AIH",
+    "parent": "AIH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Cost History AIH",
+    "parent": "AIH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "PO Analysis AIH",
+    "parent": "AIH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   }
+  ],
+  "custom_department": null,
+  "dashboard_name": "AIH Dashboard",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 0,
+  "is_standard": 0,
+  "modified": "2025-06-10 14:40:56.650966",
+  "module": null,
+  "name": "AIH Dashboard"
+ },
+ {
+  "cards": [
+   {
+    "card": "Total No of Assets KFH",
+    "parent": "KFH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Open WO KFH",
+    "parent": "KFH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "WO IN Progress KFH",
+    "parent": "KFH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Completed WO KFH",
+    "parent": "KFH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "PPM Planned KFH",
+    "parent": "KFH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "PPM Completed KFH",
+    "parent": "KFH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   }
+  ],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": "Asset Up/Down KFH",
+    "parent": "KFH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Order Priority KFH",
+    "parent": "KFH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Orders KFH",
+    "parent": "KFH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Order Status KFH",
+    "parent": "KFH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "PPM Status Chart KFH",
+    "parent": "KFH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Maintenance Frequency KFH",
+    "parent": "KFH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Maintenance Assignments KFH",
+    "parent": "KFH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Engineer Work Hours KFH",
+    "parent": "KFH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Cost History KFH",
+    "parent": "KFH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "PO Analysis KFH",
+    "parent": "KFH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   }
+  ],
+  "custom_department": null,
+  "dashboard_name": "KFH Dashboard",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 0,
+  "is_standard": 0,
+  "modified": "2025-06-10 14:40:56.719531",
+  "module": null,
+  "name": "KFH Dashboard"
+ },
+ {
+  "cards": [
+   {
+    "card": "Total No of Assets EMHH",
+    "parent": "EMHH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Open WO EMHH",
+    "parent": "EMHH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "WO IN Progress EMHH",
+    "parent": "EMHH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Completed WO EMHH",
+    "parent": "EMHH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "PPM Planned EMHH",
+    "parent": "EMHH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "PPM Completed EMHH",
+    "parent": "EMHH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   }
+  ],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": "Asset Up/Down EMHH",
+    "parent": "EMHH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Order Priority EMHH",
+    "parent": "EMHH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Orders EMHH",
+    "parent": "EMHH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Order Status EMHH",
+    "parent": "EMHH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "PPM Status Chart EMHH",
+    "parent": "EMHH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Maintenance Frequency EMHH",
+    "parent": "EMHH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Maintenance Assignments EMHH",
+    "parent": "EMHH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Engineer Work Hours EMHH",
+    "parent": "EMHH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Cost History EMHH",
+    "parent": "EMHH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "PO Analysis EMHH",
+    "parent": "EMHH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   }
+  ],
+  "custom_department": null,
+  "dashboard_name": "EMHH Dashboard",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 0,
+  "is_standard": 0,
+  "modified": "2025-06-10 14:40:56.769007",
+  "module": null,
+  "name": "EMHH Dashboard"
+ },
+ {
+  "cards": [
+   {
+    "card": "Total No of Assets MTAQ",
+    "parent": "MTAQ Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Open WO MTAQ",
+    "parent": "MTAQ Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "WO IN Progress MTAQ",
+    "parent": "MTAQ Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Completed WO MTAQ",
+    "parent": "MTAQ Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "PPM Planned MTAQ",
+    "parent": "MTAQ Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "PPM Completed MTAQ",
+    "parent": "MTAQ Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   }
+  ],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": "Asset Up/Down MTAQ",
+    "parent": "MTAQ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Order Priority MTAQ",
+    "parent": "MTAQ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Orders MTAQ",
+    "parent": "MTAQ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Order Status MTAQ",
+    "parent": "MTAQ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "PPM Status Chart MTAQ",
+    "parent": "MTAQ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Maintenance Frequency MTAQ",
+    "parent": "MTAQ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Maintenance Assignments MTAQ",
+    "parent": "MTAQ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Engineer Work Hours MTAQ",
+    "parent": "MTAQ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Cost History MTAQ",
+    "parent": "MTAQ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "PO Analysis MTAQ",
+    "parent": "MTAQ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   }
+  ],
+  "custom_department": null,
+  "dashboard_name": "MTAQ Dashboard",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 0,
+  "is_standard": 0,
+  "modified": "2025-06-10 14:40:56.824242",
+  "module": null,
+  "name": "MTAQ Dashboard"
+ },
+ {
+  "cards": [
+   {
+    "card": "Total No of Assets RLAJ",
+    "parent": "RLAJ Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Open WO RLAJ",
+    "parent": "RLAJ Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "WO IN Progress RLAJ",
+    "parent": "RLAJ Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Completed WO RLAJ",
+    "parent": "RLAJ Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "PPM Planned RLAJ",
+    "parent": "RLAJ Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "PPM Completed RLAJ",
+    "parent": "RLAJ Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   }
+  ],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": "Asset Up/Down RLAJ",
+    "parent": "RLAJ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Order Priority RLAJ",
+    "parent": "RLAJ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Orders RLAJ",
+    "parent": "RLAJ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Order Status RLAJ",
+    "parent": "RLAJ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "PPM Status Chart RLAJ",
+    "parent": "RLAJ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Maintenance Frequency RLAJ",
+    "parent": "RLAJ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Maintenance Assignments RLAJ",
+    "parent": "RLAJ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Engineer Work Hours RLAJ",
+    "parent": "RLAJ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Cost History RLAJ",
+    "parent": "RLAJ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "PO Analysis RLAJ",
+    "parent": "RLAJ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   }
+  ],
+  "custom_department": null,
+  "dashboard_name": "RLAJ Dashboard",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 0,
+  "is_standard": 0,
+  "modified": "2025-06-10 14:40:56.880783",
+  "module": null,
+  "name": "RLAJ Dashboard"
+ },
+ {
+  "cards": [
+   {
+    "card": "Total No of Assets SH",
+    "parent": "SH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Open WO SH",
+    "parent": "SH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "WO IN Progress SH",
+    "parent": "SH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Completed WO SH",
+    "parent": "SH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "PPM Planned SH",
+    "parent": "SH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "PPM Completed SH",
+    "parent": "SH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   }
+  ],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": "Asset Up/Down SH",
+    "parent": "SH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Order Priority SH",
+    "parent": "SH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Orders SH",
+    "parent": "SH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Order Status SH",
+    "parent": "SH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "PPM Status Chart SH",
+    "parent": "SH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Maintenance Frequency SH",
+    "parent": "SH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Maintenance Assignments SH",
+    "parent": "SH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Engineer Work Hours SH",
+    "parent": "SH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Cost History SH",
+    "parent": "SH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "PO Analysis SH",
+    "parent": "SH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   }
+  ],
+  "custom_department": null,
+  "dashboard_name": "SH Dashboard",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 0,
+  "is_standard": 0,
+  "modified": "2025-06-10 14:40:56.927187",
+  "module": null,
+  "name": "SH Dashboard"
+ },
+ {
+  "cards": [
+   {
+    "card": "Total No of Assets AAH",
+    "parent": "AAH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Open WO AAH",
+    "parent": "AAH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "WO IN Progress AAH",
+    "parent": "AAH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Completed WO AAH",
+    "parent": "AAH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "PPM Planned AAH",
+    "parent": "AAH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "PPM Completed AAH",
+    "parent": "AAH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   }
+  ],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": "Asset Up/Down AAH",
+    "parent": "AAH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Order Priority AAH",
+    "parent": "AAH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Orders AAH",
+    "parent": "AAH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Order Status AAH",
+    "parent": "AAH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "PPM Status Chart AAH",
+    "parent": "AAH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Maintenance Frequency AAH",
+    "parent": "AAH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Maintenance Assignments AAH",
+    "parent": "AAH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Engineer Work Hours AAH",
+    "parent": "AAH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Cost History AAH",
+    "parent": "AAH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "PO Analysis AAH",
+    "parent": "AAH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   }
+  ],
+  "custom_department": null,
+  "dashboard_name": "AAH Dashboard",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 0,
+  "is_standard": 0,
+  "modified": "2025-06-10 14:40:56.975218",
+  "module": null,
+  "name": "AAH Dashboard"
+ },
+ {
+  "cards": [
+   {
+    "card": "Total No of Assets DCAQ",
+    "parent": "DCAQ Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Open WO DCAQ",
+    "parent": "DCAQ Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "WO IN Progress DCAQ",
+    "parent": "DCAQ Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Completed WO DCAQ",
+    "parent": "DCAQ Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "PPM Planned DCAQ",
+    "parent": "DCAQ Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "PPM Completed DCAQ",
+    "parent": "DCAQ Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   }
+  ],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": "Asset Up/Down DCAQ",
+    "parent": "DCAQ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Order Priority DCAQ",
+    "parent": "DCAQ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Orders DCAQ",
+    "parent": "DCAQ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Order Status DCAQ",
+    "parent": "DCAQ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "PPM Status Chart DCAQ",
+    "parent": "DCAQ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Maintenance Frequency DCAQ",
+    "parent": "DCAQ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Maintenance Assignments DCAQ",
+    "parent": "DCAQ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Engineer Work Hours DCAQ",
+    "parent": "DCAQ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Cost History DCAQ",
+    "parent": "DCAQ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "PO Analysis DCAQ",
+    "parent": "DCAQ Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   }
+  ],
+  "custom_department": null,
+  "dashboard_name": "DCAQ Dashboard",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 0,
+  "is_standard": 0,
+  "modified": "2025-06-10 14:40:57.016857",
+  "module": null,
+  "name": "DCAQ Dashboard"
+ },
+ {
+  "cards": [
+   {
+    "card": "Total No of Assets MGH",
+    "parent": "MGH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Open WO MGH",
+    "parent": "MGH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "WO IN Progress MGH",
+    "parent": "MGH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Completed WO MGH",
+    "parent": "MGH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "PPM Planned MGH",
+    "parent": "MGH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "PPM Completed MGH",
+    "parent": "MGH Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   }
+  ],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": "Asset Up/Down MGH",
+    "parent": "MGH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Order Priority MGH",
+    "parent": "MGH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Orders MGH",
+    "parent": "MGH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Order Status MGH",
+    "parent": "MGH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "PPM Status Chart MGH",
+    "parent": "MGH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Maintenance Frequency MGH",
+    "parent": "MGH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Maintenance Assignments MGH",
+    "parent": "MGH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Engineer Work Hours MGH",
+    "parent": "MGH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Cost History MGH",
+    "parent": "MGH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "PO Analysis MGH",
+    "parent": "MGH Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   }
+  ],
+  "custom_department": null,
+  "dashboard_name": "MGH Dashboard",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 0,
+  "is_standard": 0,
+  "modified": "2025-06-10 14:40:57.076787",
+  "module": null,
+  "name": "MGH Dashboard"
+ },
+ {
+  "cards": [],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": "Active Map Chart",
+    "parent": "CM Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Asset Up/Down",
+    "parent": "CM Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Work Orders Priority",
+    "parent": "CM Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Work Order Status",
+    "parent": "CM Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Asset Maintenance Frequency",
+    "parent": "CM Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   }
+  ],
+  "custom_department": null,
+  "dashboard_name": "CM Dashboard",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 0,
+  "is_standard": 0,
+  "modified": "2025-08-08 18:42:21.346254",
+  "module": null,
+  "name": "CM Dashboard"
+ }
+]

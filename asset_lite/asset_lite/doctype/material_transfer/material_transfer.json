@@ -1,0 +1,128 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:Material-Transfer-{####}",
+ "creation": "2025-08-26 21:02:44.817236",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "hospital",
+  "purpose",
+  "source_warehouse",
+  "asset",
+  "column_break_irlz",
+  "date",
+  "reason_for_return",
+  "transfer_type",
+  "target_warehouse",
+  "item",
+  "section_break_bunw",
+  "item_table",
+  "asset_transfer"
+ ],
+ "fields": [
+  {
+   "fieldname": "hospital",
+   "fieldtype": "Link",
+   "label": "Hospital",
+   "options": "Company"
+  },
+  {
+   "fieldname": "purpose",
+   "fieldtype": "Select",
+   "label": "Purpose",
+   "options": "Transfer"
+  },
+  {
+   "fieldname": "source_warehouse",
+   "fieldtype": "Link",
+   "label": "Source Warehouse",
+   "options": "Warehouse"
+  },
+  {
+   "depends_on": "eval:doc.transfer_type=='Asset'",
+   "fieldname": "asset",
+   "fieldtype": "Link",
+   "label": "Asset",
+   "options": "Asset"
+  },
+  {
+   "fieldname": "column_break_irlz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "reason_for_return",
+   "fieldtype": "Select",
+   "label": "Reason for Return",
+   "options": "\nPurpose Completed\nSurplus\nUnusable\nDamaged"
+  },
+  {
+   "fieldname": "transfer_type",
+   "fieldtype": "Select",
+   "label": "Transfer Type",
+   "options": "\nAsset\nItem"
+  },
+  {
+   "fieldname": "target_warehouse",
+   "fieldtype": "Link",
+   "label": "Target Warehouse",
+   "options": "Warehouse"
+  },
+  {
+   "depends_on": "eval:doc.transfer_type=='Item'",
+   "fieldname": "item",
+   "fieldtype": "Link",
+   "label": "Item",
+   "options": "Item"
+  },
+  {
+   "fieldname": "section_break_bunw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "depends_on": "eval:doc.transfer_type=='Item'",
+   "fieldname": "item_table",
+   "fieldtype": "Table",
+   "label": "Item Table",
+   "options": "Item Transfer Table"
+  },
+  {
+   "depends_on": "eval:doc.transfer_type=='Asset'",
+   "fieldname": "asset_transfer",
+   "fieldtype": "Table",
+   "label": "Asset Transfer",
+   "options": "Asset Item Transfer"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-08-26 21:02:44.817236",
+ "modified_by": "Administrator",
+ "module": "Asset Lite",
+ "name": "Material Transfer",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

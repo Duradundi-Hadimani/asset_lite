@@ -1,0 +1,18 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+[remote "upstream"]
+	url = https://github.com/vipeesh-pavithran-191/aljouf-asset-custom-app.git
+	fetch = +refs/heads/main:refs/remotes/upstream/main
+[branch "main"]
+	remote = upstream
+	merge = refs/heads/main
+[remote "origin"]
+	url = https://github.com/Duradundi-Hadimani/asset_lite.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "asset-lite-dev"]
+	remote = origin
+	merge = refs/heads/asset-lite-dev
+	vscode-merge-base = origin/asset-lite-dev

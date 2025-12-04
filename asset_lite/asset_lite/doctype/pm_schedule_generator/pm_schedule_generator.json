@@ -1,0 +1,208 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:PMSG-{DD}-{MM}-{YY}-{####}",
+ "creation": "2025-09-08 13:29:07.175342",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "asset_details_section",
+  "hospital",
+  "manufacturer",
+  "model",
+  "column_break_qtoh",
+  "asset_name",
+  "modality",
+  "device_status",
+  "maintenance_details_section",
+  "start_date",
+  "maintenance_team",
+  "maintenance_manager",
+  "column_break_kapm",
+  "end_date",
+  "periodicity",
+  "assign_to",
+  "due_date",
+  "section_break_hkrb",
+  "maintenance_entries",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "asset_details_section",
+   "fieldtype": "Section Break",
+   "label": "Asset Details"
+  },
+  {
+   "fieldname": "hospital",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Hospital",
+   "options": "Company",
+   "reqd": 1
+  },
+  {
+   "fieldname": "manufacturer",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Manufacturer",
+   "options": "Manufacturer"
+  },
+  {
+   "fieldname": "model",
+   "fieldtype": "Data",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "label": "Model"
+  },
+  {
+   "fieldname": "column_break_qtoh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "asset_name",
+   "fieldtype": "Data",
+   "label": "Asset Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "device_status",
+   "fieldtype": "Select",
+   "label": "Device Status",
+   "options": "\nUp\nDown"
+  },
+  {
+   "fieldname": "maintenance_details_section",
+   "fieldtype": "Section Break",
+   "label": "Maintenance Details"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "label": "Start Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "maintenance_team",
+   "fieldtype": "Link",
+   "label": "Maintenance Team",
+   "mandatory_depends_on": "eval:doc.maintenance_entries && doc.maintenance_entries.length > 0",
+   "options": "Asset Maintenance Team"
+  },
+  {
+   "fetch_from": "maintenance_team.maintenance_manager",
+   "fetch_if_empty": 1,
+   "fieldname": "maintenance_manager",
+   "fieldtype": "Data",
+   "label": "Maintenance Manager"
+  },
+  {
+   "fieldname": "column_break_kapm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Date",
+   "label": "End Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "periodicity",
+   "fieldtype": "Select",
+   "label": "Periodicity",
+   "mandatory_depends_on": "eval:doc.maintenance_entries && doc.maintenance_entries.length > 0",
+   "options": "\nDaily\nWeekly\nMonthly\nQuarterly\nHalf-yearly\nYearly\n2 Yearly\n3 Yearly",
+   "reqd": 1
+  },
+  {
+   "fieldname": "assign_to",
+   "fieldtype": "Link",
+   "label": "Assign To",
+   "mandatory_depends_on": "eval:doc.maintenance_entries && doc.maintenance_entries.length > 0",
+   "options": "User"
+  },
+  {
+   "fieldname": "due_date",
+   "fieldtype": "Date",
+   "label": "Due Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_hkrb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "maintenance_entries",
+   "fieldtype": "Table",
+   "label": "Maintenance Entries",
+   "options": "PM Entry Line"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "PM Schedule Generator",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "PM Schedule Generator",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "modality",
+   "fieldtype": "Link",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Modality",
+   "options": "Modality"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_calendar_and_gantt": 1,
+ "is_submittable": 1,
+ "links": [
+  {
+   "link_doctype": "Asset Maintenance",
+   "link_fieldname": "custom_pm_schedule"
+  }
+ ],
+ "modified": "2025-10-08 20:37:02.852988",
+ "modified_by": "Administrator",
+ "module": "Asset Lite",
+ "name": "PM Schedule Generator",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

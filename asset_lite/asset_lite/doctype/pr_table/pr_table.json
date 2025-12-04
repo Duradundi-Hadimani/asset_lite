@@ -1,0 +1,29 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-17 17:06:51.473708",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_kinu"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_kinu",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-09-17 17:06:51.473708",
+ "modified_by": "Administrator",
+ "module": "Asset Lite",
+ "name": "PR table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

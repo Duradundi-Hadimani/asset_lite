@@ -1,0 +1,154 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{pr_no}",
+ "creation": "2024-09-17 17:13:10.035475",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "pr_no",
+  "date",
+  "column_break_4",
+  "issue",
+  "asset",
+  "asset_name",
+  "data_8",
+  "pr_table",
+  "section_break_10",
+  "priority",
+  "normal",
+  "urgent",
+  "required_date",
+  "column_break_14",
+  "intended_use_of_material",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "pr_no",
+   "fieldtype": "Data",
+   "label": "PR NO",
+   "unique": 1
+  },
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "asset_repair.issue",
+   "fetch_if_empty": 1,
+   "fieldname": "issue",
+   "fieldtype": "Link",
+   "label": "Work Order",
+   "options": "Work_Order"
+  },
+  {
+   "fetch_from": "asset_repair.asset",
+   "fieldname": "asset",
+   "fieldtype": "Link",
+   "label": "Asset",
+   "options": "Asset"
+  },
+  {
+   "fieldname": "data_8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "pr_table",
+   "fieldtype": "Table",
+   "label": "PR Table",
+   "options": "Purchase Request Table"
+  },
+  {
+   "fieldname": "section_break_10",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "priority",
+   "fieldtype": "Heading",
+   "label": "Priority"
+  },
+  {
+   "default": "0",
+   "fieldname": "normal",
+   "fieldtype": "Check",
+   "label": "Normal"
+  },
+  {
+   "default": "0",
+   "fieldname": "urgent",
+   "fieldtype": "Check",
+   "label": "Urgent"
+  },
+  {
+   "fieldname": "required_date",
+   "fieldtype": "Date",
+   "label": "Required Date"
+  },
+  {
+   "fieldname": "column_break_14",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "intended_use_of_material",
+   "fieldtype": "Text",
+   "label": "Intended Use of Material"
+  },
+  {
+   "fetch_from": "asset.asset_name",
+   "fieldname": "asset_name",
+   "fieldtype": "Data",
+   "label": "Asset Name"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Purchase Request",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [
+  {
+   "group": "Purchase Order",
+   "link_doctype": "Purchase Order",
+   "link_fieldname": "custom_purchase_request"
+  }
+ ],
+ "modified": "2024-09-20 16:11:28.459741",
+ "modified_by": "Administrator",
+ "module": "Asset Lite",
+ "name": "Purchase Request",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

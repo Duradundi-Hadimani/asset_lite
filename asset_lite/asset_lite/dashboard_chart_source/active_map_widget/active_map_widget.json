@@ -1,0 +1,13 @@
+{
+ "creation": "2025-06-25 18:03:16.704998",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart Source",
+ "idx": 0,
+ "modified": "2025-06-25 18:03:16.704998",
+ "modified_by": "Administrator",
+ "module": "Asset Lite",
+ "name": "Active Map Widget",
+ "owner": "Administrator",
+ "source_name": "Active Map Widget",
+ "timeseries": 0
+}

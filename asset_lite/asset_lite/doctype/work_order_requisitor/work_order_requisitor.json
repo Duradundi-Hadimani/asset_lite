@@ -1,0 +1,50 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:requisitor_name",
+ "creation": "2025-02-07 13:14:17.271763",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "requisitor_name",
+  "arabic_name"
+ ],
+ "fields": [
+  {
+   "fieldname": "requisitor_name",
+   "fieldtype": "Data",
+   "label": "Requisitor Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "arabic_name",
+   "fieldtype": "Data",
+   "label": "Arabic Name"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-02-07 13:19:48.723260",
+ "modified_by": "Administrator",
+ "module": "Asset Lite",
+ "name": "Work_Order Requisitor",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

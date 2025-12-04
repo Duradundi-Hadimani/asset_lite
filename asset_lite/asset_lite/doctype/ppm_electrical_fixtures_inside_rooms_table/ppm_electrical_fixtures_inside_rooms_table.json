@@ -1,0 +1,78 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2024-09-13 09:25:03.360604",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "room_numbers",
+  "electrical_switches",
+  "electrical_sockets_outlets",
+  "fluorescent_tubes",
+  "column_break_5",
+  "ballasts",
+  "starters",
+  "glass_cover_of_tube_lights"
+ ],
+ "fields": [
+  {
+   "fieldname": "room_numbers",
+   "fieldtype": "Data",
+   "label": "Room Numbers"
+  },
+  {
+   "default": "0",
+   "fieldname": "electrical_switches",
+   "fieldtype": "Check",
+   "label": "Electrical switches"
+  },
+  {
+   "default": "0",
+   "fieldname": "electrical_sockets_outlets",
+   "fieldtype": "Check",
+   "label": "Electrical sockets/outlets"
+  },
+  {
+   "default": "0",
+   "fieldname": "fluorescent_tubes",
+   "fieldtype": "Check",
+   "label": "Fluorescent tubes"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "ballasts",
+   "fieldtype": "Check",
+   "label": "Ballasts"
+  },
+  {
+   "default": "0",
+   "fieldname": "starters",
+   "fieldtype": "Check",
+   "label": "Starters"
+  },
+  {
+   "default": "0",
+   "fieldname": "glass_cover_of_tube_lights",
+   "fieldtype": "Check",
+   "label": "Glass cover of tube lights"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-09-13 17:45:12.282804",
+ "modified_by": "Administrator",
+ "module": "Asset Lite",
+ "name": "PPM Electrical Fixtures Inside Rooms Table",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

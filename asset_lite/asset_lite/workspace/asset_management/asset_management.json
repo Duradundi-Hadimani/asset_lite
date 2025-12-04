@@ -1,0 +1,99 @@
+{
+ "charts": [
+  {
+   "chart_name": "Asset Maintenance Assignees Status Count",
+   "label": "Asset Maintenance Assignees Status Count"
+  },
+  {
+   "chart_name": "Up & Down Time Chart",
+   "label": "Up & Down Time Chart"
+  },
+  {
+   "chart_name": "Repair Cost",
+   "label": "Repair Cost"
+  },
+  {
+   "chart_name": "Asset Maintenance Frequency Chart",
+   "label": "Asset Maintenance Frequency Chart"
+  },
+  {
+   "chart_name": "Work Order Status Chart",
+   "label": "Work Order Status Chart"
+  },
+  {
+   "chart_name": "PPM Status",
+   "label": "PPM Status"
+  },
+  {
+   "chart_name": "Maintenance - Asset wise Count",
+   "label": "Maintenance - Asset wise Count"
+  },
+  {
+   "chart_name": "PPM Template Counts",
+   "label": "PPM Template Counts"
+  }
+ ],
+ "content": "[{\"id\":\"yYK_-DexUD\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Asset Management</span>\",\"col\":12}},{\"id\":\"vSRTdGFowh\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Shortcuts\",\"col\":12}},{\"id\":\"zrPZ7O6g46\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"ME84l9QyCI\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total No. of Assets\",\"col\":4}},{\"id\":\"mztJCGcLAH\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Open Work Orders\",\"col\":4}},{\"id\":\"YJWVESaNY3\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Work Orders In Progress\",\"col\":4}},{\"id\":\"Lg0i-UI4zn\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Completed Work Orders\",\"col\":4}},{\"id\":\"f7T4hhF8Kb\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"FcWcAIBtBn\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Repair Cost\",\"col\":3}},{\"id\":\"x09_bP_Mgy\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Planned PMs\",\"col\":3}},{\"id\":\"EzjHiZUJ-9\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"N0fMmDFu9y\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Up & Down Time Chart\",\"col\":12}},{\"id\":\"LWcpCDqX7i\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Work Order Status Chart\",\"col\":12}},{\"id\":\"tJ1-94niQL\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Maintenance - Asset wise Count\",\"col\":12}},{\"id\":\"xdAje_Ro-7\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Asset Maintenance Assignees Status Count\",\"col\":12}},{\"id\":\"tvDISsBzdy\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Asset Maintenance Frequency Chart\",\"col\":12}},{\"id\":\"o60N46aqap\",\"type\":\"chart\",\"data\":{\"chart_name\":\"PPM Status\",\"col\":12}},{\"id\":\"EMMRueDlE7\",\"type\":\"chart\",\"data\":{\"chart_name\":\"PPM Template Counts\",\"col\":12}},{\"id\":\"-fgpm6K12i\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Repair Cost\",\"col\":12}}]",
+ "creation": "2025-08-11 16:51:24.146716",
+ "custom_blocks": [
+  {
+   "custom_block_name": "Shortcuts",
+   "label": "Shortcuts"
+  }
+ ],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "LedgerIcon-new",
+ "idx": 2,
+ "indicator_color": "",
+ "is_hidden": 0,
+ "label": "Asset Management",
+ "links": [],
+ "modified": "2025-09-18 13:29:15.514753",
+ "modified_by": "Administrator",
+ "module": "Asset Lite",
+ "name": "Asset Management",
+ "number_cards": [
+  {
+   "label": "Total No. of Assets",
+   "number_card_name": "Total No of Assets"
+  },
+  {
+   "label": "Open Work Orders",
+   "number_card_name": "Open Work Orders"
+  },
+  {
+   "label": "Work Orders In Progress",
+   "number_card_name": "Work Orders In Progress"
+  },
+  {
+   "label": "Completed Work Orders",
+   "number_card_name": "Completed Work Orders"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 28.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Repair Cost",
+   "link_to": "Repair Cost",
+   "type": "Report"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Planned PMs",
+   "link_to": "Planned PM",
+   "type": "Report"
+  }
+ ],
+ "title": "Asset Management"
+}

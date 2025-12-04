@@ -1,0 +1,9 @@
+.widget.number-widget-box {
+    cursor: pointer;
+    min-height: 84px;
+    padding: var(--number-card-padding);
+    border: 1px solid #1900ff !important; /* Already good */
+    border-radius: 10px;                    /* Optional: rounded corners */
+    box-shadow: 0 1px 3px #e03636; /* Optional: subtle shadow */
+    background-color: hwb(72 95% 4%) !important;                /* Optional: ensure background contrast */
+}

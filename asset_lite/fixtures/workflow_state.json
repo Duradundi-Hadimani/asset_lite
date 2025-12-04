@@ -1,0 +1,155 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-09-13 16:38:33.051049",
+  "name": "Sent to technician",
+  "style": "",
+  "workflow_state_name": "Sent to technician"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-05-22 18:15:15.263145",
+  "name": "Pending",
+  "style": "",
+  "workflow_state_name": "Pending"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-05-22 18:15:15.188448",
+  "name": "Sent to maintenance Manager",
+  "style": "",
+  "workflow_state_name": "Sent to maintenance Manager"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-09-17 17:29:51.495347",
+  "name": "Sent to Procurement User",
+  "style": "",
+  "workflow_state_name": "Sent to Procurement User"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-09-17 17:31:29.957725",
+  "name": "Applied",
+  "style": "",
+  "workflow_state_name": "Applied"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "ok-sign",
+  "modified": "2024-09-10 18:16:06.109888",
+  "name": "Approved",
+  "style": "Success",
+  "workflow_state_name": "Approved"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-09-17 17:37:02.717022",
+  "name": "Cancelled",
+  "style": "",
+  "workflow_state_name": "Cancelled"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-05-22 18:15:15.104122",
+  "name": "Pending Purchase",
+  "style": "",
+  "workflow_state_name": "Pending Purchase"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "remove",
+  "modified": "2024-09-10 18:16:06.113226",
+  "name": "Rejected",
+  "style": "Danger",
+  "workflow_state_name": "Rejected"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-08-26 14:02:06.495142",
+  "name": "Sent to General WOA",
+  "style": "",
+  "workflow_state_name": "Sent to General WOA"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-06-17 15:42:44.566036",
+  "name": "Sent To Site Manager",
+  "style": "",
+  "workflow_state_name": "Sent To Site Manager"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-08-11 12:01:35.474110",
+  "name": "Closed",
+  "style": "",
+  "workflow_state_name": "Closed"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-05-22 18:15:15.034033",
+  "name": "Completed",
+  "style": "Success",
+  "workflow_state_name": "Completed"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-05-22 18:15:14.987359",
+  "name": "Sent To Maintenance manger",
+  "style": "Info",
+  "workflow_state_name": "Sent To Maintenance manger"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-09-13 13:50:24.315353",
+  "name": "Pending Approval",
+  "style": "Primary",
+  "workflow_state_name": "Pending Approval"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-05-22 18:15:14.732015",
+  "name": "Repair InProgress",
+  "style": "Primary",
+  "workflow_state_name": "Repair InProgress"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-09-13 13:51:23.086380",
+  "name": "Draft",
+  "style": "Warning",
+  "workflow_state_name": "Draft"
+ }
+]

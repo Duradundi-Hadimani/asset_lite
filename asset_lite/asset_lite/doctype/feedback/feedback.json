@@ -1,0 +1,77 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-03-05 19:53:51.796362",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "work_order",
+  "column_break_eytf",
+  "feedback_by",
+  "section_break_rvtb",
+  "parameters",
+  "section_break_zmrx",
+  "overall"
+ ],
+ "fields": [
+  {
+   "fieldname": "work_order",
+   "fieldtype": "Link",
+   "label": "Work Order",
+   "options": "Work_Order"
+  },
+  {
+   "fieldname": "column_break_eytf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "feedback_by",
+   "fieldtype": "Link",
+   "label": "Feedback by",
+   "options": "User"
+  },
+  {
+   "fieldname": "section_break_rvtb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "parameters",
+   "fieldtype": "Table",
+   "label": "Parameters",
+   "options": "Feedback Table"
+  },
+  {
+   "fieldname": "section_break_zmrx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "overall",
+   "fieldtype": "Rating",
+   "label": "Overall"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-03-05 19:56:58.056262",
+ "modified_by": "Administrator",
+ "module": "Asset Lite",
+ "name": "Feedback",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

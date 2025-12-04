@@ -1,0 +1,247 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "field:site_name_en",
+ "creation": "2024-09-24 18:24:05.831422",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "site_name",
+  "region",
+  "address_2",
+  "currency",
+  "column_break_nmbz",
+  "site_name_en",
+  "address1",
+  "logo",
+  "contact_information_tab",
+  "contact_name",
+  "section_break_xnmk",
+  "fax_1",
+  "email_1",
+  "phone_1",
+  "phone_3",
+  "column_break_udpz",
+  "fax_2",
+  "email_2",
+  "phone_2",
+  "contract_information_tab",
+  "contract_number",
+  "contractor_supervisor",
+  "project_start_date",
+  "column_break_euyw",
+  "contract_name",
+  "site_maintenance_manager",
+  "project_end_date",
+  "cut_value__class_tab",
+  "cut_value_for_class_a_devices",
+  "cut_value_for_class_b_devices",
+  "cut_value_for_class_c_devices",
+  "column_break_ybpx",
+  "cut_factor_for_class_a_devices",
+  "cut_factor_for_class_b_devices",
+  "cut_factor_for_class_c_devices"
+ ],
+ "fields": [
+  {
+   "fieldname": "site_name",
+   "fieldtype": "Data",
+   "label": "Site Name"
+  },
+  {
+   "fieldname": "region",
+   "fieldtype": "Data",
+   "label": "Region"
+  },
+  {
+   "fieldname": "address_2",
+   "fieldtype": "Small Text",
+   "label": "Address 2"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Link",
+   "label": "Currency",
+   "options": "Currency"
+  },
+  {
+   "fieldname": "column_break_nmbz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "site_name_en",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Site Name EN",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "address1",
+   "fieldtype": "Small Text",
+   "label": "Address1"
+  },
+  {
+   "fieldname": "logo",
+   "fieldtype": "Attach Image",
+   "label": "Logo"
+  },
+  {
+   "fieldname": "contact_information_tab",
+   "fieldtype": "Tab Break",
+   "label": "Contact Information"
+  },
+  {
+   "fieldname": "contact_name",
+   "fieldtype": "Data",
+   "label": "Contact Name"
+  },
+  {
+   "fieldname": "section_break_xnmk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "fax_1",
+   "fieldtype": "Data",
+   "label": "Fax 1"
+  },
+  {
+   "fieldname": "email_1",
+   "fieldtype": "Data",
+   "label": "Email 1"
+  },
+  {
+   "fieldname": "phone_1",
+   "fieldtype": "Data",
+   "label": "Phone 1"
+  },
+  {
+   "fieldname": "phone_3",
+   "fieldtype": "Data",
+   "label": "Phone 3"
+  },
+  {
+   "fieldname": "column_break_udpz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fax_2",
+   "fieldtype": "Data",
+   "label": "Fax 2"
+  },
+  {
+   "fieldname": "email_2",
+   "fieldtype": "Data",
+   "label": "Email 2"
+  },
+  {
+   "fieldname": "phone_2",
+   "fieldtype": "Data",
+   "label": "Phone 2"
+  },
+  {
+   "fieldname": "contract_information_tab",
+   "fieldtype": "Tab Break",
+   "label": "Contract Information"
+  },
+  {
+   "fieldname": "contract_number",
+   "fieldtype": "Data",
+   "label": "Contract Number"
+  },
+  {
+   "fieldname": "contractor_supervisor",
+   "fieldtype": "Data",
+   "label": "Contractor Supervisor"
+  },
+  {
+   "fieldname": "project_start_date",
+   "fieldtype": "Date",
+   "label": "Project Start Date"
+  },
+  {
+   "fieldname": "column_break_euyw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "contract_name",
+   "fieldtype": "Data",
+   "label": "Contract Name"
+  },
+  {
+   "fieldname": "site_maintenance_manager",
+   "fieldtype": "Data",
+   "label": "Site Maintenance Manager"
+  },
+  {
+   "fieldname": "project_end_date",
+   "fieldtype": "Date",
+   "label": "Project End Date"
+  },
+  {
+   "fieldname": "cut_value__class_tab",
+   "fieldtype": "Tab Break",
+   "label": "Cut Value / Class"
+  },
+  {
+   "fieldname": "cut_value_for_class_a_devices",
+   "fieldtype": "Data",
+   "label": "Cut Value for Class A devices"
+  },
+  {
+   "fieldname": "cut_value_for_class_b_devices",
+   "fieldtype": "Data",
+   "label": "Cut Value for Class B devices"
+  },
+  {
+   "fieldname": "cut_value_for_class_c_devices",
+   "fieldtype": "Data",
+   "label": "Cut Value for Class C devices"
+  },
+  {
+   "fieldname": "column_break_ybpx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cut_factor_for_class_a_devices",
+   "fieldtype": "Data",
+   "label": "Cut factor for Class A devices"
+  },
+  {
+   "fieldname": "cut_factor_for_class_b_devices",
+   "fieldtype": "Data",
+   "label": "Cut factor for Class B devices"
+  },
+  {
+   "fieldname": "cut_factor_for_class_c_devices",
+   "fieldtype": "Data",
+   "label": "Cut factor for Class C devices"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-03-04 16:02:46.101873",
+ "modified_by": "Administrator",
+ "module": "Asset Lite",
+ "name": "Site Information",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
